@@ -8,9 +8,9 @@ The first image you upload will serve as the hero image.
 
 ![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.15.png)
 
-![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot 2020-05-24 at 13.16.47.png)
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.31.png)
 
-![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.15.png)
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.47.png)
 
 Screenshot 2020-05-24 at 13.16.47.png 	
 Screenshot 2020-05-24 at 13.16.31.png 	
