@@ -6,6 +6,8 @@ I will include an image you can use for the hero section, please note you are fr
 
 The first image you upload will serve as the hero image.
 
+![alt text](https://raw.githubusercontent.com/hilaryquinn/ProximoClean/edit/master/screenshots_theme/Screenshot 2020-05-24 at 13.16.15.png)
+
 ![Screenshot](/screenshots_theme/Screenshot 2020-05-24 at 13.16.15.png)
 
 Screenshot 2020-05-24 at 13.16.47.png 	
