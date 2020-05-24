@@ -6,17 +6,17 @@ I will include an image you can use for the hero section, please note you are fr
 
 The first image you upload will serve as the hero image.
 
-![Screenshot](screenshots_theme/Screenshot 2020-05-24 at 13.16.15.png)
+![Screenshot](/screenshots_theme/Screenshot 2020-05-24 at 13.16.15.png)
 
-/screenshots_theme/Screenshot 2020-05-24 at 13.16.47.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.16.31.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.20.13.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.19.55.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.16.15.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.19.46.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.17.56.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.17.42.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.16.58.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.17.32.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.19.36.png 	
-/screenshots_theme/Screenshot 2020-05-24 at 13.17.09.png
+Screenshot 2020-05-24 at 13.16.47.png 	
+Screenshot 2020-05-24 at 13.16.31.png 	
+Screenshot 2020-05-24 at 13.20.13.png 	
+Screenshot 2020-05-24 at 13.19.55.png 	
+Screenshot 2020-05-24 at 13.16.15.png 	
+Screenshot 2020-05-24 at 13.19.46.png 	
+Screenshot 2020-05-24 at 13.17.56.png 	
+Screenshot 2020-05-24 at 13.17.42.png 	
+Screenshot 2020-05-24 at 13.16.58.png 	
+Screenshot 2020-05-24 at 13.17.32.png 	
+Screenshot 2020-05-24 at 13.19.36.png 	
+Screenshot 2020-05-24 at 13.17.09.png
