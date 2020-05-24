@@ -1,0 +1,58 @@
+<<txp:if_article_list>article<txp:else />article</txp:if_article_list><txp:if_individual_article> class="intro"</txp:if_individual_article><txp:if_article_list> class="live"<txp:else /> itemscope itemtype="http://schema.org/Article"</txp:if_article_list>>
+<link itemprop="mainEntityOfPage" href="<txp:permlink />" />
+<div class="header">
+<div class="flex-container">
+<div class="flex-item">
+<h2 itemprop="headline"><a href="<txp:permlink />" itemprop="url"><txp:title /></a></h2>
+<div class="divider"></div>
+<txp:if_article_list>
+<txp:if_excerpt>
+<div class="body" itemprop="articleBody">
+<txp:excerpt />
+</div>
+</txp:if_excerpt>
+</txp:if_article_list>
+<txp:output_form form="article_social"/>
+</div><!-- /flex-item -->
+<txp:if_individual_article>
+<txp:if_article_image>
+<div class="flex-item">
+<txp:images>
+<figure class="right fadein" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<img itemprop="image" class="header_img" src="<txp:image_url thumbnail="1" />" alt="<txp:title />" />
+<meta itemprop="width" content="<txp:image_info type='w' wraptag='' class='' break='' />">
+<meta itemprop="height" content="<txp:image_info type='h' wraptag='' class='' break='' />">
+<meta itemprop="url" content="<txp:image_url thumbnail="1" />">
+</figure>
+</txp:images>
+</div>
+</txp:if_article_image>
+<txp:else />
+<txp:if_article_image>
+<div class="flex-item">
+<txp:images>
+<figure class="fadein" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<a href="<txp:permlink />" itemprop="url"><img itemprop="image" src="<txp:image_url thumbnail="1" />" alt="<txp:title />" class="fade" /></a>
+<meta itemprop="width" content="<txp:image_info type='w' wraptag='' class='' break='' />">
+<meta itemprop="height" content="<txp:image_info type='h' wraptag='' class='' break='' />">
+<meta itemprop="url" content="<txp:image_url thumbnail="1" />">
+</figure>
+</txp:images>
+</txp:if_article_image>
+</div>
+</txp:if_individual_article>
+</div><!-- /flex-container -->
+</div><!-- /header -->
+<txp:if_individual_article>
+<txp:if_excerpt>
+<div class="body" itemprop="articleBody">
+<txp:excerpt />
+<txp:body />
+</div>
+<txp:else />
+<div class="body" itemprop="articleBody">
+<txp:body />
+</div>
+</txp:if_excerpt>
+</txp:if_individual_article>
+</article>

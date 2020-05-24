@@ -1,0 +1,4 @@
+<section id="bright">
+<div class="wrapper"><h2>&#128247; Photo Gallery</h2></div>
+<txp:output_form form="gallery" />
+</section>

@@ -1,0 +1,7 @@
+<txp:image id="1" />
+<div class="wrapper">
+<h1><txp:site_name /></h1>
+<div class="divider"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam a tellus ut luctus. Etiam quis nibh a tellus gravida varius in nec nisi. Maecenas nisi eros, blandit non mattis eget, blandit tincidunt nulla. Duis non sollicitudin arcu. Praesent ornare ex et libero ultricies, eu sagittis metus malesuada. Fusce venenatis nunc libero, sed vehicula ligula accumsan a. Sed a augue sit amet neque dictum suscipit vulputate eu risus. Integer sollicitudin nisl sit amet dolor tincidunt consectetur.</p>
+<p><a href="#" class="btn">&#9742; Contact Us</a></p>
+</div>

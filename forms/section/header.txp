@@ -1,0 +1,22 @@
+<div class="wrapper">
+<nav class="navbar">
+<div class="flex_respnav">
+<a href="<txp:site_url />">
+Proximo Clean Theme
+</a>
+<div id="mobilenav">
+<a id="mobilenavicon" href="#">
+&#9776;
+</a>
+</div>
+</div>
+<ul class="section_list">
+<li<txp:if_section name="default"> class="active"</txp:if_section>>
+<a href="<txp:site_url />">Home</a>
+</li>
+<txp:section_list wraptag="" break="" include_default="0" sections=""><li<txp:if_section name='<txp:section />'> class="active"</txp:if_section>>
+<txp:section title="1" link="1" />
+</li></txp:section_list>
+</ul>
+</nav>
+</div>

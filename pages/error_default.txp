@@ -1,0 +1,101 @@
+<!-- Contents of the default (home) page template goes here. -->
+<!doctype html>
+<html lang="<txp:lang />" dir="<txp:text item="lang_dir" />" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta charset="utf-8"> 
+<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; default-src 'none'; form-action 'self'; style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com https://code.jquery.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com; frame-src https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com; img-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net https://cdn.jsdelivr.net https://live.staticflickr.com; media-src 'self'; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://ajax.googleapis.com https://cdn.jsdelivr.net https://embedr.flickr.com; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net;">
+<title><txp:page_title /></title>
+<link rel="stylesheet" href="<txp:page_url type="theme_path" />/styles/proximo.min.css">
+<txp:if_search>
+<meta name="robots" content="none">
+<txp:else />
+<txp:if_author>
+<meta name="robots" content="noindex, follow">
+<txp:else />
+<txp:meta_description />
+<txp:if_category>
+<meta name="robots" content="noindex, follow">
+<txp:else />
+<meta name="robots" content="index, follow">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"headline": "<txp:site_name escape="json" />",
+<txp:if_description>"description": "<txp:meta_description format="" escape="json" />",</txp:if_description>
+"url": "<txp:site_url escape="json" />"
+}
+</script>
+<txp:variable name="front-page" value="1" />
+</txp:if_category>
+</txp:if_author>
+</txp:if_search>
+<link rel="shortcut icon" href="<txp:site_url />favicon.ico" />
+<link rel="apple-touch-icon" href="<txp:site_url />iphone_icon.png">
+<link rel="apple-touch-icon-precomposed" href="<txp:site_url />iphone_icon.png">
+<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+<!-- specify canonical, more info: http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html -->
+<txp:if_section name="default">
+<link rel="canonical" href="<txp:site_url />">
+<txp:else />
+<txp:if_individual_article>
+<txp:hide process="2"> 
+<txp:if_variable name="multi_page" value="1"> 
+<link rel="canonical" href="<txp:section url='1' />">
+<txp:else />
+<link rel="canonical" href="<txp:permlink />">
+</txp:if_variable>
+</txp:hide>
+<txp:else />
+<link rel="canonical" href="<txp:section url='1' />">
+</txp:if_individual_article>
+</txp:if_section>
+<meta name="HandheldFriendly" content="true" />
+<txp:if_individual_article>
+<meta property="og:site_name" content="<txp:site_name />">
+<meta property="og:type" content="article">
+<meta property="og:title" content="<txp:title />">
+<txp:if_description><meta property="og:description" content="<txp:meta_description format="" />"></txp:if_description>
+<meta property="og:url" content="<txp:permlink />">
+<txp:if_article_image>
+<txp:images limit="1">
+<meta property="og:image" content="<txp:image_url />">
+<meta property="og:image:width" content="<txp:image_info type="w" />">
+<meta property="og:image:height" content="<txp:image_info type="h" />">
+<meta property="og:image:alt" content="<txp:image_info type="alt" />">
+</txp:images>
+</txp:if_article_image>
+</txp:if_individual_article>
+<txp:feed_link flavor="atom" format="link" label="Atom" />
+<txp:feed_link flavor="rss" format="link" label="RSS" />
+</head>
+<txp:if_variable name="front-page">
+<body class="front-page" itemscope itemtype="https://schema.org/WebPage" id="<txp:section />">
+<txp:else />
+<txp:if_search>
+<body class="search-page" itemscope itemtype="https://schema.org/SearchResultsPage">
+<txp:else />
+<body class="listing-page" itemscope itemtype="https://schema.org/CollectionPage">
+</txp:if_search>
+</txp:if_variable>
+<header id="header">
+<txp:output_form form="header" />
+</header>
+<main aria-label="<txp:text item="main_content" />">
+<div class="wrapper">
+<div class="container">
+<h2 class="error-status" itemprop="name"><txp:error_status /></h2>
+<div class="excerpt" itemprop="description">
+<p class="error-msg">Ooops! Sorry that page can't be found :(</p>
+</div>
+</div>
+</div>
+</main>
+<txp:output_form form="gallery_section" />
+<footer id="footer">
+<txp:output_form form="footer" />
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+<script src="<txp:page_url type="theme_path" />/js/global.min.js" defer></script>
+</body>
+</html>

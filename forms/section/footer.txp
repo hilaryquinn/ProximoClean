@@ -1,0 +1,8 @@
+<div class="wrapper">
+<ul class="social-set fade">
+<li><a href="" aria-label="Twitter @mytwitterhandle" itemprop="sameAs" class="sociali">&#8663; Twitter</a></li>
+<li><a href="" aria-label="Follow us on YouTube" itemprop="sameAs" class="sociali">&#8663; YouTube</a></li>
+<li><a href="" aria-label="Follow us on Facebook" itemprop="sameAs" class="sociali">&#8663; Facebook</a></li>
+</ul>
+<p class="back_top"><a href="#top" aria-label="Back to top of page" id="back-top">Back to Top &#8682;</i></a></p>
+</div>

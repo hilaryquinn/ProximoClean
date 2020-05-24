@@ -1,0 +1,10 @@
+<div class="social">
+<div>
+<time datetime="<txp:posted format='iso8601' />" itemprop="datePublished">
+&#9998; Posted <txp:posted format="%b %d, %Y" /></time>
+</div>
+<div>
+<time datetime="<txp:modified format='iso8601' />" itemprop="dateModified"> 
+&#9997; Modified <txp:modified format="%b %d, %Y" /></time>
+</div>
+</div> <!-- /social -->

@@ -1,0 +1,32 @@
+<article itemscope itemtype="http://schema.org/Article">
+<txp:variable name="multi_page" value="1" />
+<link itemprop="mainEntityOfPage" href="<txp:site_url /><txp:if_section name="default"><txp:else /><txp:section link="0" title="0" />/</txp:if_section>">
+<div class="header">
+<div class="flex-container">
+<txp:if_article_image><txp:images>
+<figure class="flex-item" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<img itemprop="image" src="<txp:image_url thumbnail="0" />" alt="<txp:title />" class="fade" />
+<meta itemprop="width" content="<txp:image_info type='w' wraptag='' class='' break='' />">
+<meta itemprop="height" content="<txp:image_info type='h' wraptag='' class='' break='' />">
+<meta itemprop="url" content="<txp:image_url thumbnail="0" />">
+</figure>
+</txp:images>
+<txp:else />
+</txp:if_article_image>
+<div class="flex-item">
+<h2 itemprop="headline"><txp:title /></h2>
+<div class="divider"></div>
+<txp:output_form form="article_social_page" />
+</div><!-- /flex item -->
+</div>
+</div>
+<txp:if_excerpt>
+<div class="excerpt">  
+<txp:excerpt />
+</div>
+<txp:else />
+</txp:if_excerpt>
+<div class="body" itemprop="articleBody">
+<txp:body />
+</div>
+</article>

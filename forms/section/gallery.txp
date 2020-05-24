@@ -1,0 +1,8 @@
+<txp:images category="gallery" id="" wraptag="ul" break="" class="imagescroll">
+<li>
+<img src="<txp:image_url thumbnail='1' />" alt="Image <txp:image_info type='caption' wraptag='' class='' escape='unset' />" />
+<meta itemprop="width" content="<txp:image_info type='w' wraptag='' class='' break='' />">
+<meta itemprop="height" content="<txp:image_info type='h' wraptag='' class='' break='' />">
+<meta itemprop="url" content="<txp:image_url thumbnail="0" />">
+</li>
+</txp:images>

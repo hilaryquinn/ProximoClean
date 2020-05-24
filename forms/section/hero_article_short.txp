@@ -1,0 +1,6 @@
+<txp:image id="1" />
+<div class="wrapper">
+<h1><txp:section link="0" title="1" /></h1>
+<div class="divider"></div>
+<p><a href="#" class="btn">&#9742; Contact Us</a></p>
+</div>
