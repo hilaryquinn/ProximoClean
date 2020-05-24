@@ -12,15 +12,20 @@ The first image you upload will serve as the hero image.
 
 ![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.47.png)
 
-Screenshot 2020-05-24 at 13.16.47.png 	
-Screenshot 2020-05-24 at 13.16.31.png 	
-Screenshot 2020-05-24 at 13.20.13.png 	
-Screenshot 2020-05-24 at 13.19.55.png 	
-Screenshot 2020-05-24 at 13.16.15.png 	
-Screenshot 2020-05-24 at 13.19.46.png 	
-Screenshot 2020-05-24 at 13.17.56.png 	
-Screenshot 2020-05-24 at 13.17.42.png 	
-Screenshot 2020-05-24 at 13.16.58.png 	
-Screenshot 2020-05-24 at 13.17.32.png 	
-Screenshot 2020-05-24 at 13.19.36.png 	
-Screenshot 2020-05-24 at 13.17.09.png
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.16.58.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.17.09.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.17.32.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.17.42.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.17.56.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.19.36.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.19.46.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.19.55.png)
+
+![alt text](https://github.com/hilaryquinn/ProximoClean/blob/master/screenshots_theme/Screenshot%202020-05-24%20at%2013.20.13.png)
