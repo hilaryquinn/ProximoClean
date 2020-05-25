@@ -719,6 +719,7 @@ width: 100%;
 }
 ul.social-set{
 justify-content: space-between;
+grid-gap: 0;
 }
 ul.social-set li {
 align-items: center;
