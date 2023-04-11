@@ -38,8 +38,8 @@
 <meta itemprop="url" content="<txp:image_url thumbnail="1" />">
 </figure>
 </txp:images>
-</txp:if_article_image>
 </div>
+</txp:if_article_image>
 </txp:if_individual_article>
 </div><!-- /flex-container -->
 </div><!-- /header -->
